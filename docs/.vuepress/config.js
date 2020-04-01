@@ -4,7 +4,7 @@ module.exports = {
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
     ['link', { rel: 'manifest', href: '/manifest.json' }],
-    ['meta', { name: 'theme-color', content: '#3eaf7c' }],
+    ['meta', { name: 'theme-color', content: '#0984e3' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
     ['link', { rel: 'apple-touch-icon', href: '/icons/apple-touch-icon.png' }],
@@ -15,12 +15,28 @@ module.exports = {
   plugins: [
     [
       '@vuepress/back-to-top',
-      {},
-      '@vuepress/pwa',
-      {
+      ['@vuepress/pwa', {
         serviceWorker: true,
         updatePopup: true
-      }
+      }]
     ]
   ],
+  themeConfig: {
+    nav: [
+      { text: 'Home', link: '/' },
+      { text: 'Guide', link: '/guide/'}
+    ],
+    sidebar: {
+      '/guide/': [
+        {
+          title: 'Guide',
+          collapsable: false,
+          children: [
+            '',
+            'getting-started'
+          ]
+        }
+      ]
+    }
+  }
 }

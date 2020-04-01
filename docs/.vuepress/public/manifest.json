@@ -6,7 +6,8 @@
   "start_url": "/",
   "scope": "/",
   "display": "standalone",
-  "theme_color": "#FFFFFF",
+  "theme_color": "#0984e3",
+  "background_color": "#FFFFFF",
   "icons": [
     {
       "src": "android-chrome-192x192.png",

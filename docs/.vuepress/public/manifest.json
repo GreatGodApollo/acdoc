@@ -1,6 +1,7 @@
 {
   "name": "ApolloCore",
   "short_name": "ApolloCore",
+  "start_url": "/",
   "theme_color": "#ffffff",
   "background_color": "#ffffff",
   "display": "standalone",

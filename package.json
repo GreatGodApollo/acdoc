@@ -1,0 +1,17 @@
+{
+  "name": "ac-docs",
+  "version": "0.0.0",
+  "description": "Apollo Core documentation site written in VuePress",
+  "main": "index.js",
+  "repository": "https://github.com/324Luke/ac-docs.git",
+  "author": "324Luke <me@lukewhrit.xyz>",
+  "license": "AGPL-3.0",
+  "private": true,
+  "devDependencies": {
+    "vuepress": "^1.4.0"
+  },
+  "scripts": {
+    "docs:watch": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  }
+}

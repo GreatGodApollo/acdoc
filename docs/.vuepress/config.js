@@ -29,7 +29,7 @@ module.exports = {
     sidebar: {
       '/guide/': [
         {
-          sidebarDepth: '4',
+          sidebarDepth: 4,
           title: 'Guide',
           collapsable: false,
           children: [

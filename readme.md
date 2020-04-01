@@ -1,1 +1,1 @@
-# ApolloCore Documentatoion
+# ApolloCore Documentation
